@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-27T13:21:47.354Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="MbqG8LTUlM0mCA_KNnwJ" version="16.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-27T13:27:03.220Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="659Q69jlI9zkptHz7dN8" version="16.4.3" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1444" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -68,8 +68,8 @@
         <mxCell id="e6RM8zcjZl27dZEvu9x_-62" value="QC" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="1">
           <mxGeometry x="140" y="740" width="642" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="e6RM8zcjZl27dZEvu9x_-63" value="Deployed to QC" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="e6RM8zcjZl27dZEvu9x_-62">
-          <mxGeometry x="49" y="10" width="124" height="40" as="geometry" />
+        <mxCell id="e6RM8zcjZl27dZEvu9x_-63" value="Deployed to QC from release branch release_1.22.1&lt;br&gt;&amp;nbsp;by tag from develop branch using jira pipeline" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="e6RM8zcjZl27dZEvu9x_-62">
+          <mxGeometry x="49" y="10" width="161" height="70" as="geometry" />
         </mxCell>
         <mxCell id="e6RM8zcjZl27dZEvu9x_-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="e6RM8zcjZl27dZEvu9x_-51" target="e6RM8zcjZl27dZEvu9x_-63">
           <mxGeometry relative="1" as="geometry">
