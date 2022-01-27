@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-27T13:27:03.220Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="659Q69jlI9zkptHz7dN8" version="16.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-27T13:49:30.452Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="hgQSDltlyY1GALFgKV3P" version="16.4.3" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1444" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -21,28 +21,23 @@
         <mxCell id="e6RM8zcjZl27dZEvu9x_-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="e6RM8zcjZl27dZEvu9x_-45" source="e6RM8zcjZl27dZEvu9x_-47" target="e6RM8zcjZl27dZEvu9x_-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e6RM8zcjZl27dZEvu9x_-47" value="Pull request in develop branch" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="e6RM8zcjZl27dZEvu9x_-45">
+        <mxCell id="e6RM8zcjZl27dZEvu9x_-47" value="Pull request in to develop branch" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="e6RM8zcjZl27dZEvu9x_-45">
           <mxGeometry x="515" y="13" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="e6RM8zcjZl27dZEvu9x_-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="e6RM8zcjZl27dZEvu9x_-45" source="e6RM8zcjZl27dZEvu9x_-49" target="e6RM8zcjZl27dZEvu9x_-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e6RM8zcjZl27dZEvu9x_-49" value="Pull request approved by approver" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="e6RM8zcjZl27dZEvu9x_-45">
-          <mxGeometry x="360" y="13" width="124" height="40" as="geometry" />
+          <mxGeometry x="508" y="74" width="124" height="40" as="geometry" />
         </mxCell>
         <mxCell id="e6RM8zcjZl27dZEvu9x_-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="e6RM8zcjZl27dZEvu9x_-45" source="e6RM8zcjZl27dZEvu9x_-50" target="e6RM8zcjZl27dZEvu9x_-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e6RM8zcjZl27dZEvu9x_-50" value="Testing by QA team" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="e6RM8zcjZl27dZEvu9x_-45">
-          <mxGeometry x="210" y="13" width="124" height="40" as="geometry" />
+          <mxGeometry x="358" y="74" width="124" height="40" as="geometry" />
         </mxCell>
         <mxCell id="e6RM8zcjZl27dZEvu9x_-51" value="Creating Jira ticket from develop to QC" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="e6RM8zcjZl27dZEvu9x_-45">
-          <mxGeometry x="50" y="13" width="124" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="e6RM8zcjZl27dZEvu9x_-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e6RM8zcjZl27dZEvu9x_-50">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="414" y="580" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="198" y="74" width="124" height="40" as="geometry" />
         </mxCell>
         <mxCell id="e6RM8zcjZl27dZEvu9x_-55" value="Developer&#39;s&lt;br&gt;Feature Branches" style="swimlane;html=1;startSize=60;horizontal=0;" vertex="1" parent="1">
           <mxGeometry x="140" y="320" width="642" height="110" as="geometry" />
@@ -71,10 +66,32 @@
         <mxCell id="e6RM8zcjZl27dZEvu9x_-63" value="Deployed to QC from release branch release_1.22.1&lt;br&gt;&amp;nbsp;by tag from develop branch using jira pipeline" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="e6RM8zcjZl27dZEvu9x_-62">
           <mxGeometry x="49" y="10" width="161" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="e6RM8zcjZl27dZEvu9x_-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="e6RM8zcjZl27dZEvu9x_-51" target="e6RM8zcjZl27dZEvu9x_-63">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="252.00000000000023" y="553" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="e6RM8zcjZl27dZEvu9x_-68" value="Defects?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="e6RM8zcjZl27dZEvu9x_-62">
+          <mxGeometry x="350" y="5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e6RM8zcjZl27dZEvu9x_-66" value="PROD" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="141" y="920" width="642" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="e6RM8zcjZl27dZEvu9x_-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="e6RM8zcjZl27dZEvu9x_-66" source="e6RM8zcjZl27dZEvu9x_-67" target="e6RM8zcjZl27dZEvu9x_-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6RM8zcjZl27dZEvu9x_-67" value="Deployment to production from release branch using JIRA pipeline" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="e6RM8zcjZl27dZEvu9x_-66">
+          <mxGeometry x="308.5" y="30" width="161" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="e6RM8zcjZl27dZEvu9x_-69" value="Pull request in to develop branch" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="e6RM8zcjZl27dZEvu9x_-66">
+          <mxGeometry x="519" y="45" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e6RM8zcjZl27dZEvu9x_-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e6RM8zcjZl27dZEvu9x_-69" target="e6RM8zcjZl27dZEvu9x_-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6RM8zcjZl27dZEvu9x_-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e6RM8zcjZl27dZEvu9x_-51" target="e6RM8zcjZl27dZEvu9x_-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6RM8zcjZl27dZEvu9x_-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e6RM8zcjZl27dZEvu9x_-44" target="e6RM8zcjZl27dZEvu9x_-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6RM8zcjZl27dZEvu9x_-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e6RM8zcjZl27dZEvu9x_-68" target="e6RM8zcjZl27dZEvu9x_-67">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
