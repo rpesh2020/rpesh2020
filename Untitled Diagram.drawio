@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-28T13:26:58.542Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="uciVD8xaEbtHapLT9c7L" version="16.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-28T13:28:06.667Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="h2bb7hJJIi33CYSUyvzX" version="16.4.8" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1001" dy="364" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,10 +13,10 @@
           <mxGeometry x="140" y="560" width="642" height="180" as="geometry" />
         </mxCell>
         <mxCell id="e6RM8zcjZl27dZEvu9x_-50" value="Testing by QA team" style="rounded=1;whiteSpace=wrap;html=1;" parent="e6RM8zcjZl27dZEvu9x_-43" vertex="1">
-          <mxGeometry x="380" y="25" width="124" height="40" as="geometry" />
+          <mxGeometry x="240" y="20" width="124" height="40" as="geometry" />
         </mxCell>
         <mxCell id="e6RM8zcjZl27dZEvu9x_-51" value="Creating Jira ticket from develop to QC" style="rounded=1;whiteSpace=wrap;html=1;" parent="e6RM8zcjZl27dZEvu9x_-43" vertex="1">
-          <mxGeometry x="198" y="40" width="124" height="40" as="geometry" />
+          <mxGeometry x="62.5" y="70" width="124" height="40" as="geometry" />
         </mxCell>
         <mxCell id="e6RM8zcjZl27dZEvu9x_-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="e6RM8zcjZl27dZEvu9x_-43" source="e6RM8zcjZl27dZEvu9x_-50" target="e6RM8zcjZl27dZEvu9x_-51" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -28,10 +28,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e6RM8zcjZl27dZEvu9x_-47" value="Pull request in to develop branch" style="rounded=1;whiteSpace=wrap;html=1;" parent="e6RM8zcjZl27dZEvu9x_-45" vertex="1">
-          <mxGeometry x="515" y="13" width="110" height="40" as="geometry" />
+          <mxGeometry x="515" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="e6RM8zcjZl27dZEvu9x_-49" value="Pull request approved by approver" style="rounded=1;whiteSpace=wrap;html=1;" parent="e6RM8zcjZl27dZEvu9x_-45" vertex="1">
-          <mxGeometry x="508" y="74" width="124" height="40" as="geometry" />
+          <mxGeometry x="430" y="74" width="124" height="40" as="geometry" />
         </mxCell>
         <mxCell id="e6RM8zcjZl27dZEvu9x_-55" value="Developer&#39;s&lt;br&gt;Feature Branches" style="swimlane;html=1;startSize=60;horizontal=0;" parent="1" vertex="1">
           <mxGeometry x="140" y="320" width="642" height="110" as="geometry" />
