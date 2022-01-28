@@ -1,19 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2022-01-28T13:45:58.521Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="A7r1d9zfAHpwZQAO59NL" version="16.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-28T17:26:38.290Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="bCRABCyTSZ4PY9dCJzak" version="16.4.8" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1022" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="e6RM8zcjZl27dZEvu9x_-43" value="QA Branch" style="swimlane;html=1;startSize=20;horizontal=0;" parent="1" vertex="1">
+        <mxCell id="e6RM8zcjZl27dZEvu9x_-43" value="QA" style="swimlane;html=1;startSize=20;horizontal=0;" parent="1" vertex="1">
           <mxGeometry x="140" y="570" width="642" height="140" as="geometry" />
         </mxCell>
         <mxCell id="Ze_zquSllx-PzFtZsT5g-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="e6RM8zcjZl27dZEvu9x_-43" source="e6RM8zcjZl27dZEvu9x_-50" target="Ze_zquSllx-PzFtZsT5g-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e6RM8zcjZl27dZEvu9x_-50" value="Testing by QA team" style="rounded=1;whiteSpace=wrap;html=1;" parent="e6RM8zcjZl27dZEvu9x_-43" vertex="1">
-          <mxGeometry x="330" y="30" width="124" height="40" as="geometry" />
+          <mxGeometry x="300" y="90" width="124" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="e6RM8zcjZl27dZEvu9x_-51" value="Creating Jira ticket from develop to QC" style="rounded=1;whiteSpace=wrap;html=1;" parent="e6RM8zcjZl27dZEvu9x_-43" vertex="1">
+        <mxCell id="e6RM8zcjZl27dZEvu9x_-51" value="Creating Jira ticket from develop to QC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE599;" parent="e6RM8zcjZl27dZEvu9x_-43" vertex="1">
           <mxGeometry x="30" y="70" width="124" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Ze_zquSllx-PzFtZsT5g-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="e6RM8zcjZl27dZEvu9x_-43" source="Ze_zquSllx-PzFtZsT5g-9" target="e6RM8zcjZl27dZEvu9x_-51">
@@ -28,19 +28,37 @@
         <mxCell id="Ze_zquSllx-PzFtZsT5g-15" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="e6RM8zcjZl27dZEvu9x_-43">
           <mxGeometry x="254" y="24.5" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="e6RM8zcjZl27dZEvu9x_-45" value="Develop Branch&lt;br&gt;" style="swimlane;html=1;startSize=20;horizontal=0;" parent="1" vertex="1">
+        <mxCell id="Ze_zquSllx-PzFtZsT5g-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="e6RM8zcjZl27dZEvu9x_-43" source="Ze_zquSllx-PzFtZsT5g-23" target="e6RM8zcjZl27dZEvu9x_-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ze_zquSllx-PzFtZsT5g-23" value="Deploy to QA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE599;" vertex="1" parent="e6RM8zcjZl27dZEvu9x_-43">
+          <mxGeometry x="310" y="15" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e6RM8zcjZl27dZEvu9x_-45" value="Dev" style="swimlane;html=1;startSize=20;horizontal=0;" parent="1" vertex="1">
           <mxGeometry x="140" y="430" width="642" height="140" as="geometry" />
         </mxCell>
         <mxCell id="e6RM8zcjZl27dZEvu9x_-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="e6RM8zcjZl27dZEvu9x_-45" source="e6RM8zcjZl27dZEvu9x_-47" target="e6RM8zcjZl27dZEvu9x_-49" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e6RM8zcjZl27dZEvu9x_-47" value="Pull request in to develop branch" style="rounded=1;whiteSpace=wrap;html=1;" parent="e6RM8zcjZl27dZEvu9x_-45" vertex="1">
-          <mxGeometry x="522" y="10" width="110" height="40" as="geometry" />
+        <mxCell id="e6RM8zcjZl27dZEvu9x_-47" value="Pull request in to develop br" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" parent="e6RM8zcjZl27dZEvu9x_-45" vertex="1">
+          <mxGeometry x="510" y="10" width="122" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="e6RM8zcjZl27dZEvu9x_-49" value="Pull request approved by approver" style="rounded=1;whiteSpace=wrap;html=1;" parent="e6RM8zcjZl27dZEvu9x_-45" vertex="1">
-          <mxGeometry x="515" y="74" width="124" height="40" as="geometry" />
+        <mxCell id="Ze_zquSllx-PzFtZsT5g-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="e6RM8zcjZl27dZEvu9x_-45" source="e6RM8zcjZl27dZEvu9x_-49" target="Ze_zquSllx-PzFtZsT5g-17">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e6RM8zcjZl27dZEvu9x_-55" value="Feature Branches" style="swimlane;html=1;startSize=60;horizontal=0;" parent="1" vertex="1">
+        <mxCell id="e6RM8zcjZl27dZEvu9x_-49" value="Pull request approved by approver" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;" parent="e6RM8zcjZl27dZEvu9x_-45" vertex="1">
+          <mxGeometry x="505" y="90" width="124" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ze_zquSllx-PzFtZsT5g-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="e6RM8zcjZl27dZEvu9x_-45" source="Ze_zquSllx-PzFtZsT5g-17" target="Ze_zquSllx-PzFtZsT5g-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ze_zquSllx-PzFtZsT5g-17" value="Develop" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#FFE599;" vertex="1" parent="e6RM8zcjZl27dZEvu9x_-45">
+          <mxGeometry x="360" y="70" width="103" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ze_zquSllx-PzFtZsT5g-22" value="Deploy to Dev" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE599;" vertex="1" parent="e6RM8zcjZl27dZEvu9x_-45">
+          <mxGeometry x="274" y="80" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e6RM8zcjZl27dZEvu9x_-55" value="Feature" style="swimlane;html=1;startSize=60;horizontal=0;" parent="1" vertex="1">
           <mxGeometry x="140" y="320" width="642" height="110" as="geometry">
             <mxRectangle x="140" y="320" width="30" height="120" as="alternateBounds" />
           </mxGeometry>
@@ -63,13 +81,13 @@
         <mxCell id="e6RM8zcjZl27dZEvu9x_-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="e6RM8zcjZl27dZEvu9x_-60" target="e6RM8zcjZl27dZEvu9x_-47" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e6RM8zcjZl27dZEvu9x_-62" value="QC Branch" style="swimlane;html=1;startSize=20;horizontal=0;" parent="1" vertex="1">
+        <mxCell id="e6RM8zcjZl27dZEvu9x_-62" value="QC" style="swimlane;html=1;startSize=20;horizontal=0;" parent="1" vertex="1">
           <mxGeometry x="140" y="711" width="642" height="140" as="geometry" />
         </mxCell>
         <mxCell id="Ze_zquSllx-PzFtZsT5g-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="e6RM8zcjZl27dZEvu9x_-62" source="e6RM8zcjZl27dZEvu9x_-63" target="e6RM8zcjZl27dZEvu9x_-68">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e6RM8zcjZl27dZEvu9x_-63" value="Deployed to QC from release branch release_1.22.1&lt;br&gt;&amp;nbsp;by tag from develop branch using jira pipeline" style="rounded=1;whiteSpace=wrap;html=1;" parent="e6RM8zcjZl27dZEvu9x_-62" vertex="1">
+        <mxCell id="e6RM8zcjZl27dZEvu9x_-63" value="Deployed to QC from release branch release_1.22.1&lt;br&gt;&amp;nbsp;by tag from develop branch using jira pipeline" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE599;" parent="e6RM8zcjZl27dZEvu9x_-62" vertex="1">
           <mxGeometry x="26" y="29" width="151" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Ze_zquSllx-PzFtZsT5g-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="e6RM8zcjZl27dZEvu9x_-62" source="e6RM8zcjZl27dZEvu9x_-68" target="Ze_zquSllx-PzFtZsT5g-3">
@@ -90,10 +108,10 @@
         <mxCell id="Ze_zquSllx-PzFtZsT5g-5" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="e6RM8zcjZl27dZEvu9x_-62">
           <mxGeometry x="330" y="90" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Ze_zquSllx-PzFtZsT5g-6" value="Pull request to merge in to develop branch" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="e6RM8zcjZl27dZEvu9x_-62">
+        <mxCell id="Ze_zquSllx-PzFtZsT5g-6" value="Pull request to merge in to develop branch" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" vertex="1" parent="e6RM8zcjZl27dZEvu9x_-62">
           <mxGeometry x="415" y="10" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="e6RM8zcjZl27dZEvu9x_-66" value="PROD Branch" style="swimlane;html=1;startSize=20;horizontal=0;" parent="1" vertex="1">
+        <mxCell id="e6RM8zcjZl27dZEvu9x_-66" value="Main" style="swimlane;html=1;startSize=20;horizontal=0;" parent="1" vertex="1">
           <mxGeometry x="140" y="851" width="642" height="110" as="geometry" />
         </mxCell>
         <mxCell id="e6RM8zcjZl27dZEvu9x_-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="e6RM8zcjZl27dZEvu9x_-66" source="e6RM8zcjZl27dZEvu9x_-67" target="e6RM8zcjZl27dZEvu9x_-69" edge="1">
@@ -102,16 +120,13 @@
         <mxCell id="e6RM8zcjZl27dZEvu9x_-67" value="Deployment to production from release branch using JIRA pipeline" style="rounded=1;whiteSpace=wrap;html=1;" parent="e6RM8zcjZl27dZEvu9x_-66" vertex="1">
           <mxGeometry x="208.5" y="32" width="161" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="e6RM8zcjZl27dZEvu9x_-69" value="Pull request in to develop branch" style="rounded=1;whiteSpace=wrap;html=1;" parent="e6RM8zcjZl27dZEvu9x_-66" vertex="1">
+        <mxCell id="e6RM8zcjZl27dZEvu9x_-69" value="Pull request in to develop branch" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" parent="e6RM8zcjZl27dZEvu9x_-66" vertex="1">
           <mxGeometry x="519" y="45" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="e6RM8zcjZl27dZEvu9x_-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="e6RM8zcjZl27dZEvu9x_-69" target="e6RM8zcjZl27dZEvu9x_-49" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e6RM8zcjZl27dZEvu9x_-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="e6RM8zcjZl27dZEvu9x_-68" target="e6RM8zcjZl27dZEvu9x_-67" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e6RM8zcjZl27dZEvu9x_-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="e6RM8zcjZl27dZEvu9x_-49" target="e6RM8zcjZl27dZEvu9x_-50" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e6RM8zcjZl27dZEvu9x_-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="e6RM8zcjZl27dZEvu9x_-51" target="e6RM8zcjZl27dZEvu9x_-63" edge="1">
@@ -129,6 +144,9 @@
               <mxPoint x="345" y="503" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Ze_zquSllx-PzFtZsT5g-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ze_zquSllx-PzFtZsT5g-17" target="Ze_zquSllx-PzFtZsT5g-23">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
