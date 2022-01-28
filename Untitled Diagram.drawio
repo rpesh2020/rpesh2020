@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-28T18:03:59.052Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="saBPS9ixTCBJBs9jtWis" version="16.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-28T18:05:22.723Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="p9Mbr71sQZdtkGwY0Zvw" version="16.4.8" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="1828" dy="364" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1001" dy="364" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -87,8 +87,8 @@
         <mxCell id="Ze_zquSllx-PzFtZsT5g-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="e6RM8zcjZl27dZEvu9x_-62" source="e6RM8zcjZl27dZEvu9x_-63" target="e6RM8zcjZl27dZEvu9x_-68">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e6RM8zcjZl27dZEvu9x_-63" value="Deployed to QC from release branch release_1.22.1&lt;br&gt;&amp;nbsp;by tag from develop branch using jira pipeline" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE599;" parent="e6RM8zcjZl27dZEvu9x_-62" vertex="1">
-          <mxGeometry x="26" y="29" width="151" height="70" as="geometry" />
+        <mxCell id="e6RM8zcjZl27dZEvu9x_-63" value="Deployed to QC from release branch release_1.22.1&lt;br&gt;&amp;nbsp;using jira pipeline" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE599;" parent="e6RM8zcjZl27dZEvu9x_-62" vertex="1">
+          <mxGeometry x="26" y="50" width="151" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Ze_zquSllx-PzFtZsT5g-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;" edge="1" parent="e6RM8zcjZl27dZEvu9x_-62" source="Ze_zquSllx-PzFtZsT5g-37" target="Ze_zquSllx-PzFtZsT5g-3">
           <mxGeometry relative="1" as="geometry" />
@@ -121,7 +121,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Ze_zquSllx-PzFtZsT5g-39" value="Need list of artifacts/files for jira deployment(no tags for jira)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="e6RM8zcjZl27dZEvu9x_-62">
-          <mxGeometry x="29" y="101" width="200" height="30" as="geometry" />
+          <mxGeometry x="29" y="122" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="e6RM8zcjZl27dZEvu9x_-66" value="Main" style="swimlane;html=1;startSize=20;horizontal=0;" parent="1" vertex="1">
           <mxGeometry x="140" y="870" width="642" height="110" as="geometry" />
@@ -162,9 +162,6 @@
         </mxCell>
         <mxCell id="Ze_zquSllx-PzFtZsT5g-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e6RM8zcjZl27dZEvu9x_-51" target="Ze_zquSllx-PzFtZsT5g-31">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Ze_zquSllx-PzFtZsT5g-36" value="&lt;span&gt;bug_defect_ticket branch from release&amp;nbsp; branch&lt;/span&gt;&lt;br&gt;&lt;span&gt;approved by approver before merge to release branch&lt;/span&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-99" y="530" width="300" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
